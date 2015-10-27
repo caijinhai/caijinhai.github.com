@@ -11,19 +11,19 @@ redcarpet:
 # 参考 http://github.com/vmg/redcarpet/blob/master/README.markdown
 
 # 核心设置
-title : Caijinlin's blog
+title : Caijinhai's blog
 tagline: Site Tagline
-keywords : caijinliin, linux, php, Mysql, c++,git
-description: 蔡金林的技术博客
+keywords : caijinhai, linux, php, Mysql, c++,git
+description: 蔡金海的技术博客
 author :
-  name : caijinlin
-  email : 1399534656@qq.com
-  github : caijinlin
+  name : caijinhai
+  email : 911159490@qq.com
+  github : caijinhai
   gitcafe : 
   twitter :
   facebook :
   feedburner :
-  weibo : sclgcaijinlin
+  weibo : 15927471480
 
 # 域名连接
 #production_url : //ihavee.github.io
@@ -107,5 +107,5 @@ JB :
   # 友情链接
   blogroll : false                   # true 开启，留空或 false 关闭
   brlist :
-    - text : Caijinlin's Space
-      url : wwww.caijinlin.com
+    - text : Caijinhai's Space
+      url : wwww.caijinhai.com
