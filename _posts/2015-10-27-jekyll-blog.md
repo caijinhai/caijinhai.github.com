@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "基于github和jekyll建blog"
 description: "在github上建blog"
