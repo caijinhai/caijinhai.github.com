@@ -61,7 +61,7 @@ tags: [github,jelyll]
 	至此安装jekyll完成
 
 
-###用jekyll建blog
+####用jekyll建blog
 	####在此有两种方法
 	####自己建文件及模板，比较麻烦。
 	1、建一个文件夹 ：mikdir new blog  
