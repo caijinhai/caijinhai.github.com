@@ -4,19 +4,21 @@ title: "基于github和jekyll建blog"
 description: "在github上建blog"
 keywords: "github ruby jekyll blog"
 category: 随笔
-tags: [github]
+tags: [github,jelyll]
 ---
 {% include JB/setup %}
 
 ###安装jekyll
-	####1.先下载安装ruby环境
+	
+<!-- more -->	
+####1.先下载安装ruby环境
 	在 https://pages.github.com/versions/ 查看所需要的Ruby版本，下载安装。
 	最好保持默认的路径 C:\Ruby200-x64， 因为安装包明确提出 “请不要使用带有空格的文件夹 (如： Program Files)”。
 	勾选 “Add Ruby executables to your PATH”（配置PATH环境），其他两个选项也可以勾选。
 	
 	PATH环境配置：我的电脑》》属性》》高级选项》》环境变量》》编辑》》PATH中加入ruby路径例如：“C:\Ruby22-x64\bin”
 	
-	####2.安装devkit
+####2.安装devkit
 	DevKit - RubyInstaller	DevKit 是一个在 Windows 上帮助简化安装及使用 Ruby C/C++ 扩展如 RDiscount 和 RedCloth 的工具箱。
 	1)再次前往 http://rubyinstaller.org/downloads/
 	2)下载同系统及 Ruby 版本相对应的 DevKit 安装包。
@@ -39,7 +41,7 @@ tags: [github]
 	4)回到命令行窗口内，执行安装。
 	ruby dk.rb install
 	
-	####3.安装jekyll
+####3.安装jekyll
 	执行命令 gem  install jekeyll
 	
 	在此处我出现了一个错误：
@@ -56,9 +58,8 @@ tags: [github]
 	命令　gem sources --remove https://rubygems.org/     //删除原有的gem sources
 	记住：只能有个gem sources 并且可以访问的。否则可能有问题
 	解决问题后重新安装： gem install jekyll
-###至此安装jekyll完成
-	
-<!-- more -->
+	至此安装jekyll完成
+
 
 ###用jekyll建blog
 	####在此有两种方法
@@ -71,7 +72,7 @@ tags: [github]
 	通过git命令提交到github上。
 	建页面以及相关目录，模仿http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html欢迎去参考
 	
-	####自动创建blog
+####自动创建blog
 	1)jekyll new blog  //命令创建。(本人没试过 ，仅供产考)
 	这样就会创建一个新文件夹d:/blog，其结构如下：
 	1. 文件夹_layouts：用于存放模板的文件夹，里面有两个模板，default.html和post.html
