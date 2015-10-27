@@ -2,7 +2,7 @@
 layout: post
 title: "基于github和jekyll建blog"
 description: "在github上建blog"
-keywords: "github ruby jekyll blog"
+keywords: "github ruby jekyll "
 category: 随笔
 tags: [github,jelyll]
 ---
